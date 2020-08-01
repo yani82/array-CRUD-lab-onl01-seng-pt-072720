@@ -3,13 +3,13 @@ def create_an_empty_array
 end
 
 def create_an_array
- ["Yani", "Vienna", "Samir", "Noor"]
+ family = ["Yani", "Vienna", "Samir", "Noor"]
 end
 
 def add_element_to_end_of_array(array, element)
-  ["Yani", "Vienna", "Samir", "Noor"]
-  << "Milet" 
-  
+  family = ["Yani", "Vienna", "Samir", "Noor"]
+  family << "Milet" 
+  family
 end
 end
 
