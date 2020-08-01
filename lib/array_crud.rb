@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   add_element_to_end_of_array = ["Yani", "Vienna", "Samir", "Noor"]
-  add_element_to_end_of_array.push("Milet") 
+  add_element_to_end_of_array << "Milet" 
   puts add_element_to_end_of_array.inspect
 end
 end
