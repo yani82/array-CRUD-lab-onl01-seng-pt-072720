@@ -9,7 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   family = ["Yani", "Vienna", "Samir", "Noor"]
   family << "Milet" 
-  puts family 
+  puts family.inspect
 end
 
 def add_element_to_start_of_array(array, element)
